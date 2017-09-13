@@ -1,6 +1,6 @@
-# todomvc-test v0.1.0
+# todomvc-test v1.0.0
 
-> Test [TodoMVC][] app on the given url
+> Test [TodoMVC][] app on the given url.
 
 Supports node.js >= 6.
 
@@ -82,3 +82,5 @@ See `todomvc-test --help` for more options.
 # License
 
 MIT
+
+[TodoMVC]: http://todomvc.com/
