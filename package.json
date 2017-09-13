@@ -1,0 +1,38 @@
+{
+  "name": "todomvc-test",
+  "version": "0.1.0",
+  "description": "test todomvc app",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/todomvc-test.git"
+  },
+  "keywords": [
+    "todomvc",
+    "test"
+  ],
+  "author": "Yoshiya Hinosawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/todomvc-test/issues"
+  },
+  "homepage": "https://github.com/kt3k/todomvc-test#readme",
+  "dependencies": {
+    "chromedriver": "^2.32.2",
+    "colo": "^0.3.2",
+    "drool": "^0.5.0",
+    "mocha": "^3.5.3",
+    "optimist": "^0.6.1",
+    "selenium-webdriver": "^3.5.0"
+  },
+  "devDependencies": {
+    "minimisted": "^2.0.0",
+    "standard": "^10.0.3"
+  }
+}
