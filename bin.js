@@ -4,6 +4,7 @@ const { spawn } = require('child_process')
 const { dirname, join } = require('path')
 const usage = require('./usage')
 const pkg = require('./package')
+const colo = require('colo')
 
 const getMochaPath = () => join(dirname(require.resolve('mocha')), 'bin', 'mocha')
 const mochaEntryPoint = join(__dirname, 'mocha-entry-point.js')
@@ -22,11 +23,13 @@ require('minimisted')(
 
     if (argv._.length === 0) {
       console.log('Error: No url is given')
+      console.log(`See ${colo.cyan('todomvc-test -h')} for the usage`)
       process.exit(1)
     }
 
     if (argv._.length > 1) {
       console.log('Error: More than 1 urls are given')
+      console.log(`See ${colo.cyan('todomvc-test -h')} for the usage`)
       process.exit(1)
     }
 
