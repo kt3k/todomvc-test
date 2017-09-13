@@ -27,12 +27,12 @@
     "chromedriver": "^2.32.2",
     "colo": "^0.3.2",
     "drool": "^0.5.0",
+    "minimisted": "^2.0.0",
     "mocha": "^3.5.3",
     "optimist": "^0.6.1",
     "selenium-webdriver": "^3.5.0"
   },
   "devDependencies": {
-    "minimisted": "^2.0.0",
     "standard": "^10.0.3"
   }
 }
