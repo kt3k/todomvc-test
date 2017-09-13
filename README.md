@@ -1,4 +1,4 @@
-# todomvc-test v1.0.0
+# todomvc-test v1.0.1
 
 > Test [TodoMVC][] app on the given url.
 
