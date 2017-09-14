@@ -22,7 +22,7 @@ If your todomvc app conforms to the spec, it outputs like the below:
 
 ```console
 $ todomvc-test http://localhost:8000
-Starting the test of TodoMVC app on http://todomvc.com/examples/backbone
+Starting the test of TodoMVC app on http://localhost:8000
 
 Options:
 - speedMode: true
@@ -74,6 +74,10 @@ Options:
 
   30 passing (32s)
 ```
+
+# Background
+
+This tool's test cases are basically extracted from the official [TodoMVC][]'s repository and should be compatible with them.
 
 # Options
 
