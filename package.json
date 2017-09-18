@@ -1,6 +1,6 @@
 {
   "name": "todomvc-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "test todomvc app",
   "main": "index.js",
   "bin": "./bin.js",
